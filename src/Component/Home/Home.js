@@ -59,4 +59,16 @@ right: 320px;
 `
 
 export const SayHi=styled.h1`
+font-size: 3.5rem;
+margin-top:4rem;
+`
+export const Myname=styled.h1`
+font-size: 3rem;
+margin-top: 1rem;
+`
+
+export const MySkill=styled.h1`
+font-size:3rem;
+margin-top: 1rem;
+
 `
