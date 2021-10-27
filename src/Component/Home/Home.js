@@ -41,21 +41,21 @@ width: 100px;
 height: 150px;
 position:absolute;
 top:-40px;
-left: 180px;
+left: 150px;
 `
 export const ImageObject_2=styled.img`
 width: 100px;
 height: 150px;
 position:absolute;
 top:250px;
-right: 7px;
+right: 140px;
 `
 export const ImageObject_3=styled.img`
 width: 130px;
 height: 170px;
 position:absolute;
-top:270px;
-right: 320px;
+top:350px;
+right: 500px;
 `
 
 export const SayHi=styled.h1`
