@@ -1,20 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import {Logo,Topheader,Nav,Navbar} from "./Header.js"
 export const Header=()=>{
     return(
         <div>
-             <header>
-                 <div>Logo</div>
-                 <nav>
-                     <ul>
-                         <li><NavLink to="/" exact>Home</NavLink></li>
-                         <li><NavLink to="/works">Works</NavLink></li>   
-                         <li><NavLink to="/aboutme">AboutMe</NavLink></li>  
-                         <li><NavLink to="/contact">Contact</NavLink></li>  
-                     </ul>
-                 </nav>
-             </header>
+             <Topheader>
+                 <Logo>MP</Logo>
+                 <Nav>
+                     <Navbar>
+                         <li><NavLink to="/" exact activeClassName="Active_Link">Home</NavLink></li>
+                         <li><NavLink to="/works" activeClassName="Active_Link">Works</NavLink></li>   
+                         <li><NavLink to="/aboutme" activeClassName="Active_Link">AboutMe</NavLink></li>  
+                         <li><NavLink to="/contact" activeClassName="Active_Link">Contact</NavLink></li>  
+                     </Navbar>
+                 </Nav>
+             </Topheader>
         </div>
     )
 }
