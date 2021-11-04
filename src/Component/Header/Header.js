@@ -1,49 +1,49 @@
-
 import styled from "styled-components"
+import { NavLink } from "react-router-dom"
 
 
-export const Logo=styled.a`
-color:#000;
-font-size:2rem;
-font-weight:800;
-flex:1 1 30%;
-`
-
-export const Topheader=styled.header`
-display:flex;
-width:100%;
-min-height:5rem;
-align-items:center;
-justify-content:space-between;
-padding:.2rem 3rem;
-z-index: 100;
-
-`
-export const Nav=styled.nav`
-flex:1 1 60%;
-
-
-`
-
-export const Navbar=styled.ul`
-list-style:none;
+export const TopHeader=styled.header`
+width: 100%;
+min-height: 5rem;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding-right: 2rem;
-a{
-    text-decoration: none;
-    color: #444;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 1rem;
+padding: 0.5rem 5rem;
+position: fixed;
+top: 0;
+left: 0;
+background: transparent;
+z-index: 10000;
 
-    
-}
-.Active_Link {
-    background: linear-gradient(to top left ,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.5));
-    border-radius: .5rem;
-    transition: background 0.5s ease;
-    
-}
 `
+
+
+ export const MyLogo =styled(NavLink)`
+ text-transform: uppercase;
+ flex: 1 1 10rem;
+ text-decoration:none;
+ font-size: 3rem;
+ color: #000;
+ font-weight: 800;
+ text-shadow: #000;
+ color: #fff;
+ `
+export const NavBar=styled.nav`
+flex: 1 1 20rem;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+`
+
+export const HeaderLink=styled(NavLink)`
+color: #000;
+text-decoration: none;
+margin-left:6rem;
+font-size: 1.2rem;
+font-weight: 500;
+white-space: nowrap;
+color: #fff;
+text-shadow:0px 0px 10px #000;
+`
+
