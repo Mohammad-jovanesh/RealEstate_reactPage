@@ -19,7 +19,7 @@ export const BestPrice=()=>{
             <BestPriceTop>
                 <BestPriceTop_Image src={bestImage}></BestPriceTop_Image>
                 <BestPriceTop_Content>
-                   <h1>Best Price Home ! </h1>
+                   <h1>Best Price Home !! &#x1f525; </h1>
                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                        Cras in vehicula felis. Integer nec faucibus arcu. 
                        Praesent euismod tempor diam. Suspendisse consequat 
