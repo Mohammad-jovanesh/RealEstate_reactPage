@@ -9,7 +9,9 @@ import {BestPriceSection,
     Area_icon,
     Area_area,
     AreaValue,
-    BedValue,AreaContent} from "./BestPrice_Style.js"
+    BedValue,AreaContent,
+    BestPrice_More,
+    SeeMoreArrow} from "./BestPrice_Style.js"
 import  bestImage from "../../Image/BestPrice/BestPrice.png"
 
 
@@ -54,6 +56,7 @@ export const BestPrice=()=>{
                            </Area_area>
                            
                     </BestPriceTop_Icons>
+                    <BestPrice_More>See more details <SeeMoreArrow></SeeMoreArrow></BestPrice_More>
                 </BestPriceTop_Content> 
             </BestPriceTop>
         </BestPriceSection>

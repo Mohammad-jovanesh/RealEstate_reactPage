@@ -1,6 +1,8 @@
 import styled,{css} from "styled-components"
 import {BiBed} from "react-icons/bi"
 import {BiArea} from "react-icons/bi"
+import { Link } from "react-router-dom"
+import {AiOutlineArrowRight} from "react-icons/ai"
 export const BestPriceSection =styled.section`
 width: 100%;
 height: 100vh;
@@ -87,3 +89,32 @@ export const AreaContent=styled.div`
 
 
 `
+
+export const SeeMoreArrow=styled(AiOutlineArrowRight)`
+margin-left:1rem ;
+font-size:1.2rem !important;
+font-weight: 800;
+`
+export const BestPrice_More =styled(Link)`
+display: flex;
+align-items: center;
+justify-content: flex-start;
+font-size: 1.5rem;
+margin-top: 3rem;
+margin-left: 1rem;
+text-decoration: none;
+&:hover ${SeeMoreArrow}{
+    animation: ArrowAnime 0.5s ease infinite alternate;
+}
+@keyframes ArrowAnime{
+    from{
+        transform: translateX(0) ;
+    }
+    to{
+        transform: translateX(10px) ;
+        
+    }
+}
+`
+
+
