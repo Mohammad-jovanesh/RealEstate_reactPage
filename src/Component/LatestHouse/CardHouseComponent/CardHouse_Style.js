@@ -7,9 +7,9 @@ export const CardItem =styled.div`
 width:70% ;
 min-height: 10rem;
 background: #fff;
-box-shadow:1px 1px 5px #444;
+border:1px solid #fff;
 margin: auto;
-border: 1px solid #444;
+box-shadow:-5px 5px 15px 0px rgba(0,0,0,0.5);
 cursor: pointer;
 transition:transform 0.5s ease;
 &:hover{
@@ -75,7 +75,6 @@ p{
     font-size: 0.7rem;
     margin-top: 0.5rem;
     margin-left: 0.2rem;
-
 }
 `
 

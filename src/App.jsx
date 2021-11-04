@@ -4,6 +4,7 @@ import {Header} from "./Component/Header/Haeder.jsx"
 import {Hero} from "./Component/Hero/Hero.jsx"
 import {LatestHouse} from "./Component/LatestHouse/LatestHouse.jsx"
 import {BestPrice} from "./Component/BestPriceSection/BestPrice.jsx"
+import {ServiceSection} from "./Component/Service_Section/ServiceSection.jsx"
 export const App=()=>{
     return(
         <>
@@ -12,6 +13,7 @@ export const App=()=>{
         <Hero></Hero>
         <LatestHouse />
         <BestPrice />
+        <ServiceSection />
         </>
          
         

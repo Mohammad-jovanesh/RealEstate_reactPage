@@ -56,7 +56,7 @@ export const BestPrice=()=>{
                            </Area_area>
                            
                     </BestPriceTop_Icons>
-                    <BestPrice_More>See more details <SeeMoreArrow></SeeMoreArrow></BestPrice_More>
+                    <BestPrice_More to="/">See more details <SeeMoreArrow></SeeMoreArrow></BestPrice_More>
                 </BestPriceTop_Content> 
             </BestPriceTop>
         </BestPriceSection>

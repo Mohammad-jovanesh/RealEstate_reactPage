@@ -38,7 +38,6 @@ h2{
 export const LatestHouseSection=styled.div`
 width: 100%;
 min-height: 100vh;
-background: #f1f1f1;
 padding: 3rem 2rem;
 `
 
