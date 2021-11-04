@@ -3,10 +3,23 @@ import styled from "styled-components"
 
 export const ServicesSection =styled.section`
 width: 100%;
-height: 100vh;
+min-height: 10rem;
 position: relative;
-padding: 5rem 4rem 2rem;
+padding: 5rem 4rem 10rem;
+margin-bottom:3rem ;
 &::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    bottom:0;
+    left:10%;
+    height: 3px;
+    background:#f1f1f1 ;
+    border-radius: 1rem;
+
+    
+}
+&::before{
     position: absolute;
     content: "";
     width: 80%;
@@ -15,8 +28,6 @@ padding: 5rem 4rem 2rem;
     height: 3px;
     background: #f1f1f1;
     border-radius: 1rem;
-   
-    
 }
 
 `
