@@ -7,14 +7,14 @@ import {BestPrice} from "./Component/BestPriceSection/BestPrice.jsx"
 import {ServiceSection} from "./Component/Service_Section/ServiceSection.jsx"
 export const App=()=>{
     return(
-       
+       <>
         <GlobalStyle />
         <Header></Header>
         <Hero></Hero>
         <LatestHouse />
         <BestPrice />
         <ServiceSection />
-    
+    </>
          
         
     )
